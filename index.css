@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    border: 2px solid #2575fc;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the main heading */
+h1:first-of-type {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #2575fc;
+}
+
+/* Horizontal rule after name */
+hr {
+    border: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+/* Title under name */
+h3:nth-of-type(1) {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Navigation links */
+a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #2575fc;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #6a11cb;
+}
+
+/* Separator between links */
+a span {
+    margin: 0 8px;
+    color: #aaa;
+}
+
+/* Section headings */
+h1 {
+    color: #2575fc;
+    margin: 25px 0 15px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* About section text */
+h3:nth-of-type(2) {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Skills list */
+ul {
+    list-style: none;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+ul li {
+    background: #eef2ff;
+    color: #2575fc;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    border: 1px solid #d0d9ff;
+}
+
+/* Projects list */
+ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ol li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #2575fc;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f5f9ff;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Contact Form */
+h1:last-of-type {
+    margin-top: 30px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+}
+
+button {
+    background-color: #2575fc;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
+
+/* Footer */
+hr:last-of-type {
+    margin: 30px 0;
+    border-color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+}
